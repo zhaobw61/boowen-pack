@@ -1,0 +1,22 @@
+{
+  "name": "boowen-pack",
+  "version": "1.0.0",
+  "description": "简易打包工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaobw61/boowen-pack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "zf-pack": "./bin/zf-pack.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zhaobw61/boowen-pack/issues"
+  },
+  "homepage": "https://github.com/zhaobw61/boowen-pack#readme"
+}

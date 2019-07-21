@@ -10,5 +10,6 @@ let path = require('path');
 
  let Compiler = require('../lib/Compiler.js');
  let compiler = new Compiler(config);
+ compiler.hooks.entryOption.call();
 //  表示运行
  compiler.run();
